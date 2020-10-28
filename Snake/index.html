@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Snake</title>
+  <link rel="icon" type="image/png" href="images/favicon.png"/>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <div class="buttons">
+		<button class = "button" id = "pauseGameButton" onclick="pauseGame()">Pause</button><br>s
+		<button class = "button" id = "resumeGameButton" onclick="resumeGame()">Resume</button>
+  </div>
+  <div id="game-board">
+  </div>
+  <!-- Show a model on game over -->
+	<div class='componentWrapper' style="display: none;" id = "resultModel"><br/>
+		<h1>Your is game over</h1><br/><br/>
+		<hr/><br>
+		<button class = "button" style="margin-left: 94px; margin-right: 154px;" onClick="window.location.reload();">Replay Game</button>
+	</div>
+</body>
+</html>
