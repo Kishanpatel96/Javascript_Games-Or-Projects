@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Doodle Jump</title>
+		<link rel="stylesheet" href = "css/style.css">
+		<link rel="icon" type="image/png" href="images/favicon.png"/>
+	</head>
+	<body>
+		<!-- Add button groups and score on a right corner.-->
+		<div class="buttons">
+			<button class = "button" id = "startGameButton">Start/Resume game</button>
+			<button class = "button" id = "pausedButton">Pause</button>
+		</div>
+		<!-- Show a model on game over -->
+		<div class='componentWrapper' style="display: none;" id = "resultModel"><br/>
+			<h1>Your is game over</h1>
+			<hr/><br>
+			<h2 style="font-size: 30px;">Your Total Score Is :- <br/><h1 id = "totalScore"  style="color: lightgrey; font-size: 40px;"></h1></h2>
+			<button class = "button" style="margin-left: 100px; margin-right: 24px;" onClick="window.location.reload();">Replay Game</button>
+		</div>
+		<div class ="grid">
+		</div>
+	</body>
+	<script type="text/javascript" src = "js/script.js"></script>
+</html>
