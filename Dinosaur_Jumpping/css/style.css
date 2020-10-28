@@ -1,0 +1,82 @@
+*{
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	background-image: url(../images/background.jpg);
+}
+#game{
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 100vh;
+	border: 1px solid black;
+}
+#character{
+	background-image: url(../images/dinosaur.png);
+	background-repeat: no-repeat;
+	width: 150px;
+	height: 167px;
+	position: relative;
+	top: 530px;
+	left: 100px;
+}
+.animate{
+	animation: jump 500ms;
+}
+.pause{
+    animation-play-state: paused !important;
+}
+.resume{
+    animation-play-state: running;
+}
+#block
+{
+	background-image: url(../images/tree.png);
+	background-repeat: no-repeat;
+	width: 150px;
+	height: 125px;
+	position: relative;
+	top: 360px;
+	left: 1200px;
+	animation: block 1s infinite linear;
+}
+.button {
+  background-color: white;
+  color: white; 
+  font-family: sans-serif;
+  border: 3px solid #f44336;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 4px 4px;
+  cursor: pointer;
+  border-radius: 24px;
+}
+.buttons
+{
+	float: right;
+}
+.componentWrapper {
+  border: solid cadetblue;
+  color: white; 
+  position: absolute;
+  border-radius: 40px;
+  height: 32%;
+  width: 25%;
+  top: 30%;
+  left: 37%;
+  text-align: center;
+  padding-top: 10px;
+}
+@keyframes block{
+	0%{left: 1190px;}
+	100%{left: -40px;}
+}
+@keyframes jump{
+	0%{top:530px;}
+	30%{top:370px;}
+	70%{top:370px;}
+	100%{top:530px;}
+}
