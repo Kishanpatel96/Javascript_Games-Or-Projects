@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Falling ball</title>
+		<link rel="stylesheet" href = "css/style.css">
+		<link rel="icon" type="image/png" href="images/favicon.png"/>
+	</head>
+	<body>
+		<!-- Add button groups and score on a right corner. -->
+		<div class="buttons">
+			<button class = "button" onclick = "resumeGame()" id = "startGameButton">Start game</button>
+			<button class = "button" onclick = "pauseGame()" id = "pausedButton">Pause</button>
+			<button class = "button" onclick = "resumeGame()" id = "resumeButton">Resume</button>
+		</div>
+		<!-- Show a model on game over -->
+		<div class='componentWrapper' style="display: none;" id = "resultModel"><br/>
+			<h1>Your is game over</h1><br/><br/>
+			<hr/><br>
+			<h2 style="font-size: 30px;">Your Total Score Is :- <br/><h1 id = "totalScore"  style="color: lightgrey; font-size: 40px;"></h1></h2><br>
+			<button class = "button" style="margin-left: 100px; margin-right: 24px;" onClick="window.location.reload();">Replay Game</button>
+		</div>
+		<div id ="game">
+			<div id ="character">
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src = "js/script.js"></script>
+</html>
