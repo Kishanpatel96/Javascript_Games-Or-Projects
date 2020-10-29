@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tic Tac Toe</title>
+	<!--<link rel="icon" type="image/png" href="images/favicon.png"/>-->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!-- Add button groups and score on a right corner. -->
+	<!--<div class="buttons">
+		<button class = "button" onclick = "resumeFunction()" id = "startGameButton">Start game</button>
+		<button class = "button" onclick = "pauseFunction()" id = "pausedButton">Pause</button>
+		<button class = "button" onclick = "resumeFunction()" id = "resumeButton" style="border: 3px solid #e7e7e7;" disabled = "disabled">Resume</button>
+		<h2 style="color: lightgrey; margin-left: 25px;" id = "printScore"> Score : 0</h2>
+	</div>-->
+	<!-- Show a model on game over -->
+	<!--<div class='componentWrapper' style="display: none;" id = "resultModel"><br/>
+		<h1>Your is game over</h1><br/><br/>
+		<hr/><br>
+		<h2 style="font-size: 30px;">Your Total Score Is :- <br/><h1 id = "totalScore"  style="color: lightgrey; font-size: 40px;"></h1></h2>
+		<button class = "button" style="margin-left: 94px; margin-right: 154px;" onClick="window.location.reload();">Replay Game</button>
+	</div>-->
+	<!-- Game section -->
+	<div class="board" id="board">
+		<div class="cell" data-cell></div>
+		<div class="cell" data-cell></div>
+		<div class="cell" data-cell></div>
+		<div class="cell" data-cell></div>
+		<div class="cell" data-cell></div>
+		<div class="cell" data-cell></div>
+		<div class="cell" data-cell></div>
+		<div class="cell" data-cell></div>
+		<div class="cell" data-cell></div>
+	</div>
+	<div class="winning-message" id="winningMessage">
+		<div data-winning-message-text></div>
+		<button id="restartButton">Restart</button>
+	</div>
+</body>
+<script src="js/script.js"></script>
+</html>
