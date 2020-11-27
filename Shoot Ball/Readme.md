@@ -10,5 +10,4 @@
 ## Languages Used
   - JavaScript
   - CSS
-  - HTML
-  
+  - HTML  
