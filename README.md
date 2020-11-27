@@ -10,6 +10,7 @@ These all are small games that are based on HTML, CSS, and, JavaScript.
 5. [Floppy Bird](https://github.com/Kishanpatel96/Javascript_games-and-projects/tree/main/Floppy_Bird).
 6. [Snake](https://github.com/Kishanpatel96/Javascript_games-and-projects/tree/main/Snake).
 7. [Tic_Tac_Toe](https://github.com/Kishanpatel96/Javascript_games-and-projects/tree/main/Tic_Tac_Toe).
+8. [Shoot Ball](https://github.com/Kishanpatel96/Javascript_games-and-projects/tree/main/Shoot%20Ball)
 
 I have created these projects to explore my knowledge of these technologies.
 
